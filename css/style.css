@@ -38,7 +38,6 @@ body {
     
 }
 
-
 /* ========== Conteúdo Principal =========*/
 
 .conteudoPrincipal {
@@ -55,5 +54,26 @@ body {
 .subtitulo {
     font-size: 1.5rem;
     margin-top: 3rem;
+}
+
+.conteudoPrincipal-equipamento{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.conteudoPrincipal-equipamento-link{
+    background-color: #FFF;
+    width: 31%;
+    height: 15.6rem;
+    margin:1%;
+}
+
+.conteudoPrincipal-equipamento-link img{
+
+width: 80%;
+height: 80%;
+position: center;
+margin-left: 2.5rem;
+
 }
 
