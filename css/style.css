@@ -38,21 +38,22 @@ body {
     
 }
 
+
+/* ========== Conteúdo Principal =========*/
+
 .conteudoPrincipal {
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 1.5rem;
+    padding: 1.3rem;
 }
 
-titulo{
+.titulo {
     font-weight: bold;
-    font-size: 40px;
-    margin-bottom: 10px;
+    font-size: 3rem;
     text-align: center;
-
 }
 
-.subtitulo{
-    font-weight: bold;
-    font-size: 25px;
-    margin-bottom: 10px;
+.subtitulo {
+    font-size: 1.5rem;
+    margin-top: 3rem;
 }
+
