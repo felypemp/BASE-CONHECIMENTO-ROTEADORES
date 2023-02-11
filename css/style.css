@@ -38,13 +38,13 @@
 	box-shadow: 5px 5px 5px #000;
 }
 
-.conteudoPrincipal-equipamento-link a img{
-width: 70%;
+.equipamentoImagem{
+width: 50%;
 height: 70%;
 margin-bottom: 1rem;
 }
 
-.conteudoPrincipal-equipamento-link a {
+.equipamentoLink {
 text-decoration: none;
 color: #000;
 font-weight: bold;
@@ -52,7 +52,6 @@ font-size: 1.2rem;
 display: block;
 width: 100%;
 text-align: center;
-
 }
 
 
