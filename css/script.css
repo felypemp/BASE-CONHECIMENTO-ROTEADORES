@@ -1,13 +1,20 @@
-.containerScript{
+.conteudoPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.containerScript {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    
+    text-align: center;
 }
+
 
 .nomeScript{
     padding: 0.5rem;
+    width: 12rem;
     background-color: #dacccc;
     font-size: 1.3rem;
     font-weight: bold;
@@ -18,20 +25,23 @@
 .btnEquipamento{
     background-color: #fffdfd;
     width: 10rem;
-    margin-top: 2.5rem;
-    font-size: 1.5rem;
-    padding: 0.5rem;
-    border-radius: 4rem;
+    margin-bottom: 3rem;
+    margin-right: 1.5rem;
+    font-size: 1.2rem;
+    padding: 0.4rem;
+    border-radius: 0.8rem;
     text-transform: uppercase;
+    box-shadow: 1px 1px 1px #000;
 }
 
 .btnEquipamento:hover{
-    background-color: var(--white);
-    color:orange;
+    background-color: red;
+    color:yellow;
     font-weight: 700;
     cursor: pointer;
-
+    box-shadow: 5px 5px 5px #000;
 }
+
 
 /*========== Função para esconder ========== */
 
