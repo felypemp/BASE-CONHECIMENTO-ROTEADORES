@@ -1,0 +1,39 @@
+body {
+	background-color: #aaabac;
+	font-family: 'Open Sans',Arial,sans-serif;
+}
+
+.cabecalhoPrincipal{
+    background-color: #000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 94%;
+    padding: 1rem 2rem;
+    
+}
+.container img{
+    max-width:130px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+}
+
+.cabecalhoPrincipal-nav-link {
+    color: #aaabac;
+    text-decoration: none;
+    font-size: 1.07rem;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    transition: .5s;
+    border-radius: 0.5rem;
+}
+
+.cabecalhoPrincipal-nav-link:hover {
+    color: #FFF;
+    background-color: #4e4f50;
+    
+}
