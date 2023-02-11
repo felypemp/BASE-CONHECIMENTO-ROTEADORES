@@ -1,14 +1,41 @@
-.scriptMikrotik{
+.containerScript{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     
 }
 
 .nomeScript{
-    background-color: aliceblue;
+    padding: 0.5rem;
+    background-color: #dacccc;
     font-size: 1.3rem;
     font-weight: bold;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
 }
+
+.btnEquipamento{
+    background-color: #fffdfd;
+    width: 10rem;
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 4rem;
+    text-transform: uppercase;
+}
+
+.btnEquipamento:hover{
+    background-color: var(--white);
+    color:orange;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+/*========== Função para esconder ========== */
+
+.esconder {
+    display: none;
+}
+

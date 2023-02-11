@@ -43,18 +43,19 @@ body {
 /* ========== CONTEUDO PRINCIPAL DAS PAGINAS ========== */
 
 .conteudoPrincipal {
-	margin-top: 1.5rem;
     padding: 1.3rem;
 }
 
 .titulo {
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2.2rem;
     text-align: center;
 }
 
 .subtitulo {
     font-size: 1.5rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
+
+
