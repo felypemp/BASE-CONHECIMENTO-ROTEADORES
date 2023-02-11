@@ -1,0 +1,14 @@
+.scriptMikrotik{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.nomeScript{
+    background-color: aliceblue;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}

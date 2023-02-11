@@ -1,25 +1,8 @@
 /* ========== Conteúdo Principal =========*/
 
-.conteudoPrincipal {
-	margin-top: 1.5rem;
-    padding: 1.3rem;
-}
-
-.titulo {
-    font-weight: bold;
-    font-size: 3rem;
-    text-align: center;
-}
-
-.subtitulo {
-    font-size: 1.5rem;
-    margin-top: 3rem;
-}
-
 .conteudoPrincipal-equipamento{
     display:flex;
     flex-wrap: wrap;
-    margin-top: 3rem;
 }
 
 .conteudoPrincipal-equipamento-link{

@@ -3,6 +3,8 @@ body {
 	font-family: 'Open Sans',Arial,sans-serif;
 }
 
+/* ========== CABECALHO DAS PAGINAS ========== */
+
 .cabecalhoPrincipal{
     background-color: #000;
 }
@@ -36,4 +38,23 @@ body {
     color: #FFF;
     background-color: #4e4f50;
     
+}
+
+/* ========== CONTEUDO PRINCIPAL DAS PAGINAS ========== */
+
+.conteudoPrincipal {
+	margin-top: 1.5rem;
+    padding: 1.3rem;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.subtitulo {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
