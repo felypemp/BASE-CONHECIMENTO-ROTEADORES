@@ -1,0 +1,24 @@
+.formularioEmail{
+    margin-top:5rem;
+}
+
+.tituloEmail{
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size: 1.3rem;
+}
+
+#SolicitacaoIpRedes{
+    border: 1px solid #ccc;
+    margin-top:1rem;
+    font-size:1.3rem;
+    text-align: left;
+    line-height: 1.6rem;
+    resize:none;
+    padding: 0.8rem;
+    font-family: 'Verdana';
+}
+
+.linhaEmail {
+    margin-bottom:5rem;
+}
