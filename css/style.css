@@ -38,3 +38,35 @@ text-align: center;
 }
 
 
+/* ========== tabelas ==========*/
+
+.tabela, th, td{
+    border: 1px solid;
+    padding: 1rem;
+    margin: 0 auto;
+
+}
+.tabela tr:nth-child(even){
+    background: #F0FFFF;
+}
+.tabela tr:nth-child(odd){
+    background: rgb(153, 155, 160);
+}
+
+.tituloTabela{
+    font-size:3rem;
+    margin: 3rem 0 3rem 0;
+}
+
+th{
+    font-weight:bold;
+    font-size: 1.2rem;
+    background: #4b6e12;
+}
+
+/*========== Função para esconder ========== */
+
+.esconder {
+    display: none;
+}
+
