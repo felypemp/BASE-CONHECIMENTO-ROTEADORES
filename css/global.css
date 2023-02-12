@@ -66,3 +66,26 @@ body {
 }
 
 
+/*****media querys *****/
+@media screen and (max-width: 480px) {
+    .cabecalhoPrincipal-nav {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .cabecalhoPrincipal .container {
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+        
+    }
+
+    .cabecalhoPrincipal-nav-link {
+		width: auto;
+		margin: 0 0 0 10px;
+	}
+
+    .container img{
+        display: none;
+    }
+}
