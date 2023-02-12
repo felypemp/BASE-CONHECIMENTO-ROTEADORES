@@ -45,25 +45,25 @@
                         </a>
                     </li>
                     <li  class="conteudoPrincipal-equipamento-link btnRaisecom">
-                        <a class="equipamentoLink" href="comandosEquipamentos.html">
+                        <a class="equipamentoLink" href="#raisecom">
                             <img class="equipamentoImagem" src="./img/raisecom.png" alt="">
                             <p class="equipamentoNome">Raisecom</p>
                         </a>
                     </li>
                     <li  class="conteudoPrincipal-equipamento-link btnDm4100">
-                        <a class="equipamentoLink" href="comandosEquipamentos.html">
+                        <a class="equipamentoLink" href="#dm4100">
                             <img class="equipamentoImagem" src="./img/datacom4100.jpg" alt="">
                             <p class="nomeEquipamento">Datacom 4100</p>
                         </a>
                     </li>
                     <li  class="conteudoPrincipal-equipamento-link btnDm4170">
-                        <a class="equipamentoLink" href="comandosEquipamentos.html">
+                        <a class="equipamentoLink" href="#dm4170">
                             <img class="equipamentoImagem" src="./img/dm4170.png" alt="">
                             <p class="nomeEquipamento">DM 4170 / 4270</p>
                         </a>
                     </li>
-                    <li  class="conteudoPrincipal-equipamento-link btnQFX">
-                        <a class="equipamentoLink" href="comandosEquipamentos.html">
+                    <li  class="conteudoPrincipal-equipamento-link btnQfx">
+                        <a class="equipamentoLink" href="#qfx">
                             <img class="equipamentoImagem" src="./img/qfx.jpg" alt="">
                             <p class="nomeEquipamento">QFX</p>
                         </a>
@@ -71,6 +71,8 @@
                 </ul>
             </nav>
         </div>
+
+        <hr class="linha">
 
         <div class="containerTabela">
             <table class="tabela esconder" id="edd">
@@ -112,8 +114,8 @@
                     <th>linha de comando</th>
                 </tr>
                 <tr>
-                    <td>Mostra as interfaces</td>
-                    <td>show interfaces table configuration</td>
+                    <td>apresenta os equipamentos da vizinhança  </td>
+                    <td>show cdp neighbors</td>
                 </tr>
                 <tr>
                     <td>mostra a banda utilizadas pelas interfaces</td>
@@ -134,6 +136,14 @@
                 <tr>
                     <td>mostra tabela de erro das interfaces</td>
                     <td>Show interface table counter error</td>
+                </tr>
+                <tr>
+                    <td>mostra tabela de erro das interfaces</td>
+                    <td>Show interface table counter error</td>
+                </tr>
+                <tr>
+                    <td>mostra o log da porta especificada (UPTIME)</td>
+                    <td>Show log ram | include 1/26</td>
                 </tr>
             </table>
     
@@ -166,6 +176,14 @@
                 <tr>
                     <td>mostra tabela de erro das interfaces</td>
                     <td>Show interface table counter error</td>
+                </tr>
+                <tr>
+                    <td>mostra o log da porta especificada (UPTIME)</td>
+                    <td>Show log ram | include 1/26</td>
+                </tr>
+                <tr>
+                    <td>mostra detalhes da interfana porta (Temperatura, TX, RX)</td>
+                    <td>show hardware-status tranceivers detail 1/26</td>
                 </tr>
             </table>
     
@@ -208,28 +226,40 @@
                     <th>linha de comando</th>
                 </tr>
                 <tr>
-                    <td>Mostra as interfaces</td>
-                    <td>show interfaces table configuration</td>
+                    <td>Mostra a queues de cada porta</td>
+                    <td>show running-config qos | tab</td>
                 </tr>
                 <tr>
-                    <td>mostra a banda utilizadas pelas interfaces</td>
-                    <td>show interface table utilization bandwicht</td>
+                    <td>Mostra o detalhamento das interfaces</td>
+                    <td>show running-config interface | tab</td>
                 </tr>
                 <tr>
-                    <td>mostra o log da porta especificada (UPTIME)</td>
-                    <td>Show log ram | include 1/26</td>
+                    <td>Mostra os comandos usados recentemente</td>
+                    <td>show history</td>
                 </tr>
                 <tr>
-                    <td>mostra detalhes da interfana porta (Temperatura, TX, RX)</td>
-                    <td>show hardware-status tranceivers detail 1/26</td>
+                    <td>mostra a tabela de consumo dos clientes</td>
+                    <td>show interface utilization | tab</td>
                 </tr>
                 <tr>
-                    <td>mostra macs conectados na porta</td>
-                    <td>show mac-address-table  interface ethernet 1/26</td>
+                    <td>ultimos logs</td>
+                    <td>show log tail</td>
                 </tr>
                 <tr>
-                    <td>mostra tabela de erro das interfaces</td>
-                    <td>Show interface table counter error</td>
+                    <td>verificar erros e status (UP/DOWN)</td>
+                    <td>show interface gigabit-ethernet 1/1/13 statistics</td>
+                </tr>
+                <tr>
+                    <td>verificar erros e status (UP/DOWN) porta GIGA</td>
+                    <td>show interface ten-gigabit-ethernet 1/1/13 statistic</td>
+                </tr>
+                <tr>
+                    <td>mostra as modificações realizadas no momento</td>
+                    <td>ls ou show configuration diff</td>
+                </tr>
+                <tr>
+                    <td>checa as alterações realizadas para validação</td>
+                    <td>commit check</td>
                 </tr>
             </table>
     

@@ -1,5 +1,9 @@
 /* ========== Conteúdo Principal =========*/
 
+.containerPrincipal{
+    margin-bottom: 2rem;
+}
+
 .conteudoPrincipal-equipamento{
     display:flex;
     flex-wrap: wrap;
